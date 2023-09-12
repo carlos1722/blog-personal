@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Black Ops One', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1pc;
+    align-items: center;
+}
+.bar ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 3pc;
+}
+header{
+    background-color: #181818;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+nav div{
+    display: flex;
+    align-items: center;
+    gap: 1pc;
+}
+img{
+    width: 6pc;
+    border-radius: 50%;
+}
+main div img{
+    width: 20pc;
+    border-radius: 40%;
+}
+main div{
+    height: 100vh;
+    
+}
+.inicio{
+    padding: 20px;
+    background-image: url(imagenes/hero.svg);
+
+}
+.servicios{
+    background-color: rgb(31, 141, 141);
+    padding: 20px;
+}
+.contacto{
+    background-color: aqua;
+    height: 20vh;
+}
+.contacto img{
+    width: 4pc;
+    border-radius: 50%;
+}
